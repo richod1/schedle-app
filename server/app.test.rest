@@ -1,0 +1,12 @@
+Get http://localhost:4000/api
+
+
+###
+POST http://localhost:4000/schedule/create
+
+-H: "Content-Type:application/json"
+{
+    "userId":"degraft",
+    "timezone":"(GMT-7:00) dawson,Yukon",
+    "schedule":"7:00am-10:00am"
+}
